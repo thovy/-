@@ -34,6 +34,7 @@ public class p42583 {
         while(truck_i + i < truck_weights.length){
             int j = 0;
 
+
             bridge[bridge_i+1] = bridge[bridge_i];
 
             i++;
