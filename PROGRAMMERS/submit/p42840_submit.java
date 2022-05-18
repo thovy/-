@@ -58,12 +58,17 @@ public class p42840_submit {
 //            }
 //            int max = Math.max(Math.max(score1, score2), score3);
 //
+//            // int 형 List 를 만들어 최대값과 같으면 넣어줌. 순서대로 오름차순으로 넣기 때문에 1, 2, 3 순으로 넣음.
+//            // 다행히도 3 개뿐이라서 3줄을 적어준 것.
 //            List<Integer> list = new ArrayList<Integer>();
 //            if(score1==max)list.add(1);
 //            if(score2==max)list.add(2);
 //            if(score3==max)list.add(3);
 //            if(list.isEmpty()) return new int[]{1,2,3};
 //
+//            // answer 의 사이즈를 정해주고,
+//            // 세련된 for 문으로 list 를 value 넣어 다시 answer 에 넣는데, index++ 를 이용해 자동으로 차례로 들어가게 해준다.
+//            // 나는 생각지도 못한 매우 세련된 문장인데 내가 어디서 보고 가져왔을까?
 //            answer = new int[list.size()];
 //            int index = 0;
 //            for(int value : list){answer[index++]=value;}
