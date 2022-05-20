@@ -7,7 +7,7 @@
 
 #### 가끔 `파이썬`으로도 풀어보자 :sunglasses:
 
-<img src="https://img.shields.io/badge/Python-3766AB?style=for-the-badge&logo=Python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Python-3766AB?style=for-the-badge&logo=Python&logoColor=white" width="80"/>
 
 ###### 파일은 `인텔리제이`로 만들고 인텔리제이를 통해 `깃허브`에 업로드해보자
 
