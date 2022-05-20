@@ -13,6 +13,11 @@
 
 <img src="https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white">
 
+<!-- 깃허브 스탯 -->
+<!-- ![thovy's GitHub stats](https://github-readme-stats.vercel.app/api?username=thovy&show_icons=true&theme=tokyonight) -->
+
+<!-- 백준 스탯 -->
+[![Solved.ac Profile](http://mazassumnida.wtf/api/generate_badge?boj=kdh8312)](https://solved.ac/kdh8312)
 ---
 
 
