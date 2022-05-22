@@ -44,19 +44,20 @@ public class b10816 {
 //        System.out.println(matchingNumber[1]);
 
         // number 에 matchingNumber 가 몇 개가 있는지 나타낼 count ( 공백으로 구분해 출력 )
-        List<String> list = new ArrayList<String>();
-        for (int s = 0; s < N; s++){
+        String answer = "";
+        for(int tmp1 = 0; tmp1 < M; tmp1++){
             int count = 0;
-            for(int m = 0; m < M; m++){
-                if (number[s] == matchingNumber[m]){
+            for(int tmp2 = 0; tmp2 < N; tmp2++){
+                if(matchingNumber[tmp1] == number[tmp2]){
                     count++;
                 }
             }
-            list.add(String.valueOf(count));
-            if (s != N-1){
-                list.add(" ");
+            answer += String.valueOf(count);
+            if(tmp1 != M-1) {
+                answer += " ";
             }
         }
-        System.out.println(list);
+
+        System.out.println(answer);
     }
 }
