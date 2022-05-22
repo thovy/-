@@ -59,5 +59,7 @@ public class b10816 {
         }
 
         System.out.println(answer);
+        
+//        이분탐색을 사용해보자
     }
 }
