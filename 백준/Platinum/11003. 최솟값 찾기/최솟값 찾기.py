@@ -6,7 +6,7 @@ A = list(map(int, sys.stdin.readline().split()))
 answerdeque = deque()
 
 for i in range(N):
-    # answerdeque 의 맨 뒤의 값[-1][0]  A[i] 의 값보다 크면
+    # answerdeque 의 맨 뒤의 값([-1][0])이  A[i] 의 값보다 크면
     while answerdeque and answerdeque[-1][0] > A[i]:
         answerdeque.pop()    # 맨 마지막 값 뒤로 빼내기.
         # pop()- 마지막 값 뒤로 빼내기, popleft()- 첫 값 앞으로 빼내기
