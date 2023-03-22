@@ -18,6 +18,6 @@ def solution(wallpaper):
     answer.append(min(ylist))
     answer.append(max(xlist)+1)
     answer.append(max(ylist)+1)
-    print(answer)
+    # print(answer)
     
     return answer
