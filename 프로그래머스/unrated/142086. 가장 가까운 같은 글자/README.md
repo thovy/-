@@ -1,10 +1,10 @@
 # [unrated] 가장 가까운 같은 글자 - 142086 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/142086?language=python3) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/142086) 
 
 ### 성능 요약
 
-메모리: 29.5 MB, 시간: 8916.12 ms
+메모리: 28.7 MB, 시간: 2.27 ms
 
 ### 구분
 
