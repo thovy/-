@@ -25,7 +25,4 @@ def solution(k, dungeons):
         if go_in > max_go_in:
             max_go_in = go_in
 
-
-
-
     return max_go_in
