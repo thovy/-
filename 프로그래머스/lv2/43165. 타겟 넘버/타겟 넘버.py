@@ -33,3 +33,48 @@ def solution(numbers, target):
             if temp == target:
                 answer += 1
     return answer
+
+
+#     # 재귀함수를 이용한 DFS
+    
+#     n = len(numbers)
+    
+#     # 재귀 돌릴 함수 선언
+#     def dfs(index, result):
+#         if index == n:
+#             if result == target:
+#                 # 전역변수는 아닌 함수 내 변수를 호출하는 nonlocal
+#                 nonlocal answer
+#                 answer += 1
+#             # index 가 n 이면 끝내기
+#             # 깊이가 n 에 닿으면 해당 깊이로 탐색은 끝난 거지.
+#             # 그럼 그 때 numbers 를 모두 합한 result 가 target 과 같으면 answer += 1
+#             return
+#         else:
+#             dfs(index+1, result + numbers[index])
+#             dfs(index+1, result - numbers[index])
+    
+#     # 함수 시작
+#     dfs(0,0)
+#     return answer
+
+# bfs 성능
+# 테스트 1 〉	통과 (1148.34ms, 116MB)
+# 테스트 2 〉	통과 (1013.49ms, 116MB)
+# 테스트 3 〉	통과 (0.67ms, 10.4MB)
+# 테스트 4 〉	통과 (1.87ms, 10.5MB)
+# 테스트 5 〉	통과 (16.81ms, 13.2MB)
+# 테스트 6 〉	통과 (0.96ms, 10.4MB)
+# 테스트 7 〉	통과 (0.46ms, 10.4MB)
+# 테스트 8 〉	통과 (5.50ms, 10.7MB)
+
+# 재귀함수 dfs 성능
+# 테스트 1 〉	통과 (307.65ms, 10.2MB)
+# 테스트 2 〉	통과 (298.41ms, 10.2MB)
+# 테스트 3 〉	통과 (0.30ms, 10.3MB)
+# 테스트 4 〉	통과 (2.50ms, 10.2MB)
+# 테스트 5 〉	통과 (9.06ms, 10.2MB)
+# 테스트 6 〉	통과 (0.59ms, 10.2MB)
+# 테스트 7 〉	통과 (0.55ms, 10.4MB)
+# 테스트 8 〉	통과 (2.71ms, 10.1MB)
+            
